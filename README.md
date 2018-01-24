@@ -22,11 +22,11 @@ stylelint-config-fhfe 是烽火 UED 前端组为了帮助保持团队的代码�
     {
         extends: [
             'stylelint-config-fhfe',
-        ]
+        ],
         rules: {
             // 这里填入你的项目需要的个性化配置
         }
-    };
+    }
     ```
     运行 
 

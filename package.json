@@ -1,10 +1,10 @@
 {
   "name": "stylelint-config-fhfe",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "fhfe styleLint",
-  "main": "index.js",
+  "main": ".stylelintrc",
   "files": [
-    "index.js"
+    ".stylelintrc"
   ],
   "scripts": {
     "lint-css": "stylelint demo.css"

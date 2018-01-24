@@ -1,5 +1,5 @@
-module.exports = {
-    rules: {
+{
+  rules: {
         'color-hex-case': 'lower',
         'color-no-invalid-hex': true,
         
@@ -21,7 +21,7 @@ module.exports = {
         'string-no-newline': true,
         'string-quotes': 'double',
         
-        'length-zero-no-unit': true,
+        'length-zero-no-unit':true,
         
         'unit-case': 'lower',
         'unit-no-unknown': true,
@@ -67,7 +67,7 @@ module.exports = {
         
         'media-query-list-comma-newline-after': 'always-multi-line',
         'media-query-list-comma-space-after': 'always-single-line',
-
+        
         'comment-whitespace-inside': 'always',
         
         'indentation': 4,
@@ -81,4 +81,4 @@ module.exports = {
         'no-invalid-double-slash-comments': true,
         'no-unknown-animations': true
     }
-};
+}
