@@ -1,0 +1,25 @@
+{
+  "name": "stylelint-config-fhfe",
+  "version": "0.0.1",
+  "description": "fhfe styleLint",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint-css": "stylelint demo.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennonover/stylelint-config-fhfe.git"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "walei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lennonover/stylelint-config-fhfe/issues"
+  },
+  "homepage": "https://github.com/lennonover/stylelint-config-fhfe"
+}

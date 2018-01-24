@@ -1,0 +1,84 @@
+module.exports = {
+    rules: {
+        'color-hex-case': 'lower',
+        'color-no-invalid-hex': true,
+        
+        'at-rule-name-space-after': 'always',
+        'at-rule-semicolon-newline-after': 'always',
+        'at-rule-no-unknown': [
+            true,
+            ignoreAtRules: ['function', 'if', 'return', 'include', 'extend', 'mixin', 'else', 'while', 'for', 'each']
+        ],
+        
+        'function-comma-space-after': 'always',
+        'function-linear-gradient-no-nonstandard-direction': true,
+        'function-url-quotes': 'always',
+        'function-whitespace-after': 'always',
+        
+        'number-leading-zero': 'never',
+        'number-no-trailing-zeros': true,
+        
+        'string-no-newline': true,
+        'string-quotes': 'double',
+        
+        'length-zero-no-unit': true,
+        
+        'unit-case': 'lower',
+        'unit-no-unknown': true,
+        
+        'value-keyword-case': 'lower',
+        'value-list-comma-newline-after': 'always-multi-line',
+        'value-list-comma-space-after': 'always',
+        
+        'shorthand-property-no-redundant-values': true,
+        
+        'declaration-bang-space-after': 'never',
+        'declaration-bang-space-before': 'always',
+        'declaration-colon-space-after': 'always',
+        'declaration-colon-space-before': 'never',
+        'declaration-block-no-shorthand-property-overrides': true,
+        'declaration-block-semicolon-newline-after': 'always-multi-line',
+        'declaration-block-semicolon-newline-before': 'never-multi-line',
+        'declaration-block-semicolon-space-after': 'always-single-line',
+        'declaration-block-semicolon-space-before': 'never',
+        'declaration-block-trailing-semicolon': 'always',
+        
+        'block-no-empty': true,
+        'block-opening-brace-space-after': 'always-single-line',
+        'block-opening-brace-space-before': 'always',
+        'block-closing-brace-space-before': 'always-single-line',
+        
+        'selector-attribute-brackets-space-inside': 'always',
+        'selector-attribute-operator-space-after': 'always',
+        'selector-attribute-operator-space-before': 'always',
+        'selector-combinator-space-after': 'always',
+        'selector-combinator-space-before': 'always',
+        'selector-max-compound-selectors': 4,
+        'selector-pseudo-class-case': 'lower',
+        'selector-pseudo-class-no-unknown': true,
+        'selector-pseudo-element-case': 'lower',
+        'selector-pseudo-element-no-unknown': true,
+        'selector-type-case': 'lower',
+        'selector-max-empty-lines': 0,
+        'selector-list-comma-newline-before': 'never-multi-line',
+        'selector-list-comma-space-after': 'always-single-line',
+        
+
+        
+        'media-query-list-comma-newline-after': 'always-multi-line',
+        'media-query-list-comma-space-after': 'always-single-line',
+
+        'comment-whitespace-inside': 'always',
+        
+        'indentation': 4,
+        'max-empty-lines': 1,
+        'max-nesting-depth': 4,
+        'no-descending-specificity': true,
+        'no-duplicate-selectors': true,
+        'no-empty-source': true,
+        'no-eol-whitespace': true,
+        'no-extra-semicolons': true,
+        'no-invalid-double-slash-comments': true,
+        'no-unknown-animations': true
+    }
+};
