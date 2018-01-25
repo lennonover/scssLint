@@ -38,9 +38,9 @@ stylelint-config-fhfe 是烽火 UED 前端组为了帮助保持团队的代码�
 
 ## 规则
 
-    [stylelint](http://stylelint.cn/user-guide/rules/) 有百余条内置规则。它们希望为广大开发者提供更有价值的 标准 CSS 。每个规则都是独立的，默认情况下为关闭状态并没有默认值。
+其中 [stylelint](http://stylelint.cn/user-guide/rules/) 有百余条内置规则。它们希望为广大开发者提供更有价值的 标准 CSS 。每个规则都是独立的，默认情况下为关闭状态并没有默认值。
     
-    #stylefmt 表示可以用 stylefmt 修复
+`#stylefmt` 表示可以用 stylefmt 修复
 
 - 颜色
 
