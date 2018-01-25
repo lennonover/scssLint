@@ -14,7 +14,9 @@ stylelint-config-fhfe 是烽火 UED 前端组为了帮助保持团队的代码�
 
 - 项目中使用
 
-    `npm install --save-dev stylelint-config-fhfe`
+    ```
+    npm install --save-dev stylelint-config-fhfe
+    ```
 
     在你的项目根目录下创建 .stylelintrc，并将以下内容复制到文件中：
 
